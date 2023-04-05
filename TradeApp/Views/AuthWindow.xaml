@@ -5,18 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TradeApp.Views"
         mc:Ignorable="d"
-        Title="Authentification" Height="450" Width="450" ResizeMode="CanMinimize">
-    <Grid Background="Salmon">
-        <TextBlock Text="TradeApp Authentification" Margin="80,55,80,320" FontSize="20" FontWeight="Black" FontStyle="Italic" Foreground="DarkCyan" TextAlignment="Center"/>
+        Title="Authentification" Height="450" Width="450" ResizeMode="CanMinimize" WindowStartupLocation = "CenterScreen">
+    <Grid Background="White">
+
+        <TextBlock Text="TradeApp Authentification" Margin="80,55,80,320" FontSize="20" FontWeight="Black" FontStyle="Italic" Foreground="#FF498C51" TextAlignment="Center"/>
         <StackPanel VerticalAlignment="Top"
                     Width="320"
                     HorizontalAlignment="Center" 
                     Height="200" Margin="0,160,0,0">
-            <TextBlock Text = "Login" FontStyle="Oblique" FontSize="20" FontWeight="Black" Foreground="DarkCyan"/>
+            <TextBlock Text = "Login" FontStyle="Oblique" FontSize="20" FontWeight="Black" Foreground="#FF498C51"/>
             <TextBox Name="TbLogin"/>
-            <TextBlock Text = "Password" FontStyle="Oblique" FontSize="20" FontWeight="Black" Foreground="DarkCyan"/>
+            <TextBlock Text = "Password" FontStyle="Oblique" FontSize="20" FontWeight="Black" Foreground="#FF498C51"/>
             <TextBox Name="TbPasswd"/>
-            <Button Height="20" Margin="20" Content="Sign in" FontWeight="Bold" Click="ButnSignIn_Click"/>
+            <Button Height="20" Margin="20" Content="Sign in" FontWeight="Bold" Click="ButnSignIn_Click" BorderBrush="#FF8A8A8A" Foreground="#FF080808" Background="#FF76E383"  />
         </StackPanel>
     </Grid>
 </Window>
