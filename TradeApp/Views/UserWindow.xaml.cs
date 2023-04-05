@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Objects.DataClasses;
+using System.Data.Entity.Infrastructure;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,19 +13,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TradeApp.Models;
 
-namespace TradeApp
+namespace TradeApp.Views
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для DataWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class UserWindow : Window
     {
-        public MainWindow()
-        {
+        public UserWindow()
+        { 
             InitializeComponent();
+            var products = AppData.db.Product.ToList();
+            items.ItemsSource = products;
         }
     }
 }

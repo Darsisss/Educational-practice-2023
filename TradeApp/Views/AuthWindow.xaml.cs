@@ -28,23 +28,34 @@ namespace TradeApp.Views
 
         private void ButnSignIn_Click(object sender, RoutedEventArgs e)
         {
+
             try
             {
-                var CurrentUser = AppData.db.User.FirstOrDefault(u => u.UserLogin == TbLogin.Text && u.UserPassword == TbPasswd.Text);
+                btn.Content = "Подождите...";
+                var CurrentUser = AppData.db.User.FirstOrDefault(u => u.UserLogin == TbLogin.Text && u.UserPassword == TbPasswd.Password);
                 if (CurrentUser != null)
                 {
-                    DataWindow NewWindow = new DataWindow();
+                    if (CurrentUser.UserRoleId == 1)
+                    {
+                        Hide();
+                        UserWindow userWindow = new UserWindow();
+                        userWindow.Show();
+                    }
+                    else if (CurrentUser.UserRoleId == 2)
+                    {
+                        Hide();
+                        Manager manager = new Manager();
+                        manager.Show();
+                    }
 
-                    NewWindow.Show();
-
-                    this.Close();
                 }
                 else
                 {
+                    btn.Content = "Sign in2";
                     MessageBox.Show("Wrong Login or Password");
                 }
             }
-            
+
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);

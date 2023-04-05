@@ -25,7 +25,6 @@ D:\VSPRODS\TradeApp\TradeApp\obj\Debug\TradeApp_Content.g.cs
 D:\VSPRODS\TradeApp\TradeApp\obj\Debug\TradeApp.csproj.CopyComplete
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.csproj.AssemblyReference.cache
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.csproj.SuggestedBindingRedirects.cache
-D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\MainWindow.g.cs
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\AuthWindow.g.cs
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\App.g.cs
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp_Content.g.cs
@@ -41,12 +40,14 @@ D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\bin\Debug\EntityFramework.SqlServer.dl
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\bin\Debug\EntityFramework.xml
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\bin\Debug\EntityFramework.SqlServer.xml
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\bin\Debug\ru\EntityFramework.resources.dll
-D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\DataWindow.g.cs
-D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\MainWindow.baml
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\AuthWindow.baml
-D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\DataWindow.baml
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.g.resources
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.Properties.Resources.resources
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.csproj.GenerateResource.cache
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.csproj.CoreCompileInputs.cache
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\TradeApp.csproj.CopyComplete
+D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\UserWindow.g.cs
+D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\UserWindow.baml
+D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\Manager.g.cs
+D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\Views\Manager.baml
+D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\obj\Debug\GeneratedInternalTypeHelper.g.cs

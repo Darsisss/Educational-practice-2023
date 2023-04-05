@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\IS-33\ZVL\TradeAppAuth-master\TradeApp\App.xaml
-3-804966259
+3248232134
 2-1223955081
-17-500562716
+17-908728021
 18-526688467
-Views\DataWindow.xaml;Views\MainWindow.xaml;Views\AuthWindow.xaml;
+Views\Manager.xaml;Views\UserWindow.xaml;Views\AuthWindow.xaml;
 
 False
 
